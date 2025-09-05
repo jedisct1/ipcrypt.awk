@@ -1,6 +1,6 @@
 # ipcrypt AWK Implementations (det, nd, ndx)
 
-Pure AWK implementations for all three variants of the IPCrypt specification:
+Pure AWK implementations for all three variants of the [IPCrypt](https://ipcrypt-std.github.io/) specification:
 
 * `det`  – Deterministic AES-128 over the 16‑byte IP block
 * `nd`   – KIASU-BC (8‑byte tweak padded to 16 bytes internally)
