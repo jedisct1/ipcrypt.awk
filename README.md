@@ -6,6 +6,10 @@ Pure AWK implementations for all three variants of the [IPCrypt](https://ipcrypt
 * `nd`   – KIASU-BC (8‑byte tweak padded to 16 bytes internally)
 * `ndx`  – XTS-like (two AES-128 keys + 16‑byte tweak)
 
+IPCrypt is an open specification for encrypting and obfuscating IP addresses while maintaining network operational capabilities. It provides methods to handle IP addresses, preventing exposure of sensitive user information to third parties without key access.
+
+The specification emphasizes simplicity and uses established cryptographic standards to make implementation accessible across different programming languages while achieving high-performance processing at network speeds.
+
 ## Features
 
 * Pure portable AWK (no GNU-specific bitwise ops required)
