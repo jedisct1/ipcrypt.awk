@@ -1,4 +1,4 @@
-# ipcrypt AWK Implementations (det, nd, ndx)
+# IPCrypt AWK Implementations
 
 Pure AWK implementations for all three variants of the [IPCrypt](https://ipcrypt-std.github.io/) specification:
 
